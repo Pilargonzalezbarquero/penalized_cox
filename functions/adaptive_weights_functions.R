@@ -46,7 +46,7 @@ uni_weights<-function(x,y){
 
 
 #Function for calculating random survival forest weights
-uni_weights<-function(x,y){
+rsf_weights<-function(x,y){
   data<-as.data.frame(x)
   data$y1<-y[,1]
   data$y2<-y[,2]
